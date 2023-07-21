@@ -1,0 +1,3 @@
+mongodb_snapshot_backup.sh script usage
+-----------------------------------------
+. ./mongodb_snapshot_backup.sh
