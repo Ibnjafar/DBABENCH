@@ -1,3 +1,11 @@
+Script Purpose:
+-------------------
+This is the script which can be used to take lvm based snapshot backup for mongodb deployment. 
+
+Warning:
+--------
+It's always best to test in a non-production environment and consider the trade-offs before proceeding with this technique.
+
 mongodb_snapshot_backup.sh script usage
 -----------------------------------------
 . ./mongodb_snapshot_backup.sh
