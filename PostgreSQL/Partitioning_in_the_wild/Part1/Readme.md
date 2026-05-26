@@ -50,7 +50,7 @@ lab/
 - PostgreSQL 18.3
 - pg_partman 5.4.3
 - pg_cron (optional, for auto-partition scheduling in 01_native.sql)
-- Docker  (Windows/Mac/Linux) or any PostgreSQL instance
+- Docker (Windows/Mac/Linux) or any PostgreSQL instance
 
 ## Quick start
 
@@ -68,7 +68,7 @@ lab/
 [Your partitioned table will fail at midnight](https://dbabench.blogspot.com/2026/05/your-partitioned-table-will-fail-at.html)
 
 ## Series: Partitioning in the Wild
-```
+
 | Post | Title |
 |------|-------|
 | 1 | Your partitioned table will fail at midnight |
@@ -76,4 +76,3 @@ lab/
 | 3 | Moving 50 million rows into a partitioned table without downtime |
 | 4 | Partition pruning: the feature that only works if you write queries right |
 | 5 | What breaks in your partitioned tables when you upgrade to PG18 |
-```
