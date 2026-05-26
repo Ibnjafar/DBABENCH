@@ -30,18 +30,20 @@ We simulate out-of-range inserts, apply fixes, test a fourth dynamic approach, a
 
 ## Lab structure
 
+```
 lab/
-├── 00_setup.sql           -- schema creation
-├── 01_native.sql          -- native declarative + pg_cron auto-partition
-├── 02_constraint.sql      -- constraint-based with static and updated trigger
-├── 03_partman.sql         -- pg_partman setup
-├── 04_dynamic_trigger.sql -- dynamic auto-creating trigger
-├── 05_benchmark.sql       -- benchmark queries
-├── 06_cleanup.sql         -- drop everything and start fresh
+├── 00_setup.sql            -- schema creation
+├── 01_native.sql           -- native declarative + pg_cron auto-partition
+├── 02_constraint.sql       -- constraint-based with static and updated trigger
+├── 03_partman.sql          -- pg_partman setup
+├── 04_dynamic_trigger.sql  -- dynamic auto-creating trigger
+├── 05_benchmark.sql        -- write benchmark queries
+├── 06_cleanup.sql          -- drop everything and start fresh
 └── live_test/
-├── README.md          -- connection and usage instructions
-├── requirements.txt   -- psycopg2-binary
-└── sensor_generator.py -- live bulk data ingestion generator with drift simulation
+    ├── README.md           -- connection and usage instructions
+    ├── requirements.txt    -- psycopg2-binary
+    └── sensor_generator.py -- live bulk data ingestion with drift simulation
+```
 
 ## Prerequisites
 
@@ -67,7 +69,7 @@ lab/
 
 ## Series
 
-| Post | Title | Status |
+| Post | Title |
 |---|---|---|
 | 1 | Your partitioned table will fail at midnight 
 | 2 | Pre-creating partitions manually is how incidents start at 3am 
