@@ -2,7 +2,7 @@
 
 **Your partitioned table will fail at midnight**
 
-Series: Partitioning in the Wild | Part 1 of 10
+Series: Partitioning in the Wild | Part 1 of 8
 Platform: PostgreSQL 18.3 | Tested on Docker
 
 ## What this post covers
