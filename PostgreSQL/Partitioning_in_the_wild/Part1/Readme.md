@@ -72,7 +72,4 @@ lab/
 | Post | Title |
 |------|-------|
 | 1 | Your partitioned table will fail at midnight |
-| 2 | Pre-creating partitions manually is how incidents start at 3am |
-| 3 | Moving 50 million rows into a partitioned table without downtime |
-| 4 | Partition pruning: the feature that only works if you write queries right |
-| 5 | What breaks in your partitioned tables when you upgrade to PG18 |
+| 2 | Moving 50 million rows into a partitioned table without downtime |
